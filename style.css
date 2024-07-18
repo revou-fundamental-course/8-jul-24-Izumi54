@@ -1,0 +1,207 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+.bmi-body {
+    background-color: #e0e0e0;
+    width: 100%;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+.bmi-form {
+    padding: 10px 10px 10px 25px;
+    font-size: 18px;
+    color: #000000;
+    font: bold;
+}
+.h4-jenis {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.in-jenis {
+    margin-top: 10px;
+}
+
+.in-jenis label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.in-bmi label {
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+}
+.in-bmi input {
+    margin-left: -30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 100%;
+    width: 95%;
+    border: 1px solid rgb(187, 187, 187);
+    height: 35px;
+    letter-spacing: .03rem;
+    background-color: white;
+    outline: none;
+    transition: .25s;
+    border-radius: 8px;
+    text-indent: 24px;
+    margin-top: 8px;
+}
+
+.in-bmi img {
+    right: 2px;
+    bottom: 4px;
+    width: 20px;
+    height: 30px;
+    transform: translate(0px,9px);
+    transform-origin: center;
+    
+}
+.btn-hitung {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: #45caff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px 20px -5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-reset {
+    position: relative;
+    width: 65px;
+    height: 28px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(186, 185, 185);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.container {
+    display:flex ;
+    flex-direction: column;
+    flex-direction: row;  /* horizontal pada laptop*/
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* vartikal pada layar posel*/
+    }
+}
+.div1 {
+    margin: 0px 30px 30px 30px;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+}
+.div1 p {
+    font-size: 15px;
+}
+.div2 {
+    margin: 0px 30px 20px 30px;
+    width: 50%;
+}
+
+.hasil-bbl {
+    height:auto;
+    padding: 10px;
+    background-color: #e0e0e0;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.hasil-bbl p {
+    font-size: 15px;
+    margin-top: 80px;
+}
+.hasil-h4 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.hasil-bbl h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.hasil-bbl button {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: #45caff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 10px 0px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn-kons {
+    position: relative;
+    width: 270px;
+    height: 40px;
+    background-color: #45caff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px 10px 0px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn-resg {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    background-color: #45caff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px 10px 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.resiko {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 22px;
+}
+.resiko p {
+    margin-bottom: 0px;
+}
+.btn-kons-1 {
+    position: relative;
+    width: 270px;
+    height: 40px;
+    background-color: #45caff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn-resg-1 {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    background-color: #45caff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 10px 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
